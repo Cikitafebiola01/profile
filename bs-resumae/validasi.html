@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UTS PEWEB</title>
+</head>
+<body bgcolor="darkviolet">
+	<p align="center", style="font-size:50px">Klik tombol dibawah dan masuk aja</p>
+	<button onclick="validasi()">Try me!!</button>
+	<p id="demo"></p>
+	<script>
+		function validasi()
+		{
+			var kata_kunci = prompt("Masukkan kata-kunci nya C01J5^_^");
+			if (kata_kunci == "C01J5")
+			{
+				alert("Selamat datang to my profile");
+				window.location="index.html"
+			}
+			else
+			{
+				alert("Maaf ya kata_kunci nya salah");
+				window.location="error.html"
+			}
+		}
+	</script>
+
+</body>
+</html>
